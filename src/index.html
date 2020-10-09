@@ -5,36 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>facebook - clone </title>
+  <title>Discord Clone | Tailwand Css </title>
   <link rel="stylesheet" href="/assets/css/app.css">
 </head>
 
 <body class="antialiased font-sans leading-normal h-screen">
 
-  <!-- start: header part -->
-  <div class="header border p-4 flex justify-between">
+  <!-- start: discord content -->
+  <div class="flex flex-col min-h-screen">
+    <!-- start: top bar -->
+    <section id="top-bar" class="bg-red-500 flex">
+      <div class="top-bar__mai-title bg-green-500 w-56 flex-none">
+        Tailwind Css
+      </div>
+      <div class="bg-yellow-500 flex-1 ">
+        rest of top bar
+      </div>
+    </section>
+    <!-- end: top bar -->
 
-    <!-- start: logo part -->
-    <div class="header__logo bg-blue-200">
-        <span>logo fb</span>
-    </div>
-    <!-- end: logo part -->
+    <!-- start: rest part -->
+    <section id="rest-part" class="bg-blue-500 flex-1 flex">
 
-    <!-- start: options part -->
-    <div class="header__options bg-red-200">
-      <span>options</span>
-    </div>
-    <!-- end: options part -->
+      <!-- start: hashtag-sidebar -->
+      <div class="hashtag-sidebar w-56 flex-none bg-red-200">
+        <h2>hashtag sidebar</h2>
+      </div>
+      <!-- end: hashtag-sidebar -->
 
-    <!-- start: options part -->
-    <div class="header__options bg-red-200">
-      <span>options</span>
-    </div>
-    <!-- end: options part -->
+      <!-- Start: -->
+      <div class="bg-red-100 flex-1 flex">
+        <div class="chat-content bg-red-600 flex-1">
+          Chat
+        </div>
+
+        <div class="contact-sidebar w-56">
+          Contact
+        </div>
+      </div>
+      <!-- End -->
+    </section>
+    <!-- end: rest part -->
   </div>
-  <!-- end: header part -->
-
-
+  <!-- end: discord content -->
   <script src="/assets/js/app.js"></script>
   <script src="/assets/js/main.js"></script>
 </body>
