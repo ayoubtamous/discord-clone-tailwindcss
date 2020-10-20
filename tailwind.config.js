@@ -19,6 +19,13 @@ module.exports = {
           ...systemColors
         }
       },
+      spacing: {
+
+      },
+      width: {
+
+      },
+
       fontFamily: {
         sans: ['Lato', ...defaultTheme.fontFamily.sans]
       },
